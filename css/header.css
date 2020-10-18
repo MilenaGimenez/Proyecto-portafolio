@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 
-.header{    
-    background-color: #fff;
-    height: 120px;
+.header{
+    background-color: white;    
     box-shadow: 0px 20px 25px 0px rgba(204,204,204,0.5);
-    padding-top: 30px;    
+    padding: 3%;    
+    position: fixed;    
+    width: 100vw;
 }
 
 .navigation-bar{       
@@ -40,6 +41,7 @@
     color: #fff;
     box-shadow: 0px 0px 21px 4px rgba(104,203,255,0.6); 
     cursor: pointer;     
+    
 }
 
 /*Landing*/
@@ -59,7 +61,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 3em;
     font-weight: 900;
-    color: rgb(78, 78, 78);
+    color: rgb(78, 78, 78);    
 }
 
 .landing-title{
@@ -71,7 +73,7 @@
 .landing-description{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5em;
-    color: rgb(78, 78, 78);
+    color: rgb(78, 78, 78);    
 }
 
 .landing-button{
