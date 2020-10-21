@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(97, 97, 97);
+}
+
+#quote{
+    /* background-color: #8025FE;
+    height: 100vh; */
+    background-color: #F25CA2;
+    color: #0433BF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18% 4%;   
+}
+
+.quote-icon{
+    width: 10px;
+}

@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header{
@@ -19,8 +20,7 @@
     line-height: 2.5;    
 }
 
-.nav-button{
-    font-family: 'Poppins', sans-serif;
+.nav-button{    
     color: rgb(97, 97, 97);
     font-size: 1em;    
     padding: 0px 20px; 
@@ -30,8 +30,7 @@
     color: #fff;      
 }
 
-.nav-button:hover{
-    font-family: 'Poppins', sans-serif;
+.nav-button:hover{    
     color: rgb(97, 97, 97);
     font-size: 1em;    
     padding: 0px 20px; 
@@ -59,8 +58,7 @@
     width: 38%;
 }
 
-.landing-greeting{
-    font-family: 'Poppins', sans-serif;
+.landing-greeting{    
     font-size: 2em;
     font-weight: 900;
     color: rgb(78, 78, 78);    
@@ -72,14 +70,12 @@
     color: #5C15CC;
 }
 
-.landing-description{
-    font-family: 'Poppins', sans-serif;
+.landing-description{    
     font-size: 1.3em;
     color: rgb(78, 78, 78);    
 }
 
-.landing-button{
-    font-family: 'Poppins', sans-serif;
+.landing-button{    
     font-size: 1.5em;
     font-weight: 400;
     color: white;    
@@ -91,8 +87,7 @@
     outline:none;  
 }
 
-.landing-button:hover{
-    font-family: 'Poppins', sans-serif;
+.landing-button:hover{    
     font-size: 1.5em;
     font-weight: 400;
     color: white;    
