@@ -2,22 +2,34 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(97, 97, 97);
+    font-family: 'Poppins', sans-serif;    
 }
 
 #quote{
-    /* background-color: #8025FE;
-    height: 100vh; */
-    background-color: #F25CA2;
-    color: #0433BF;
+    background-color: #8025FE;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 18% 4%;   
+    flex-direction: column;   
+    text-align: center;
+}
+
+.quote-box{    
+    margin: 7%;
 }
 
 .quote-icon{
-    width: 10px;
+    width: 5%;      
+}
+
+.quote-text{
+    font-size: 1.2em;
+    font-style: italic;    
+    width: 60%;
+    margin: 3% auto;
+    color: white; 
+}
+
+.quote-author{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;       
 }
