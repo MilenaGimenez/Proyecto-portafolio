@@ -6,33 +6,34 @@
     color: rgb(97, 97, 97);
 }
 
-.about-box{
+#proyects{
     background-color: rgba(104,203,255,0.1);
-    height: 130vh;
+    height: 180vh;
     display: flex;
     flex-direction: column;    
     text-align: center;   
 }
 
-.about-title{
+.proyects-title{
     font-size: 2.8em;
-    margin-top: 10%;    
+    margin-top: 10%; 
 }
 
-.about-description{
+.proyects-description{
     font-size: 1em;    
     width: 25%;   
     margin: 2% auto;
 }
 
-.about-box-knowledge{    
-    width: 60%;   
+.proyects-boxes{
+    width: 70%;   
     margin: auto;
     display: flex;
-    flex-wrap: wrap;     
+    flex-wrap: wrap; 
+    /* background-color: tomato; */
 }
 
-.knowledge-box{
+.proyects-box{
     background-color: white;
     width: 30%;  
     margin: 1.5% 1.5%;
@@ -43,13 +44,12 @@
     padding: 5% 1%;
 }
 
-.knowledge-icon{
-    width: 40%;
-    margin: auto;
+.proyects-box-title{
+    font-size: 1.1em;
+    margin-top: 5%;    
 }
 
-.knowledge-title{
-    font-size: 1.3em;
-    margin-top: 8%;
-    font-weight: 600;
+.proyect-image{
+    width: 50%;
+    margin: auto;
 }
