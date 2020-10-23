@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/favicon.ico"/>
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/hello.css">
+    <link rel="stylesheet" href="./css/know.css">
     <link rel="stylesheet" href="./css/quote.css">
     <link rel="stylesheet" href="./css/proyects.css">
     <link rel="stylesheet" href="./css/contact.css">
@@ -21,8 +22,13 @@
     
     <header class="header">
         <nav class="navigation-bar">
-            <div class="nav-button">HOLA</div>
-            <div class="nav-button">CONOCIMIENTOS</div>
+            <div class="nav-button">
+                <a href="#hello">HOLA</a>
+            </div>
+
+            <div class="nav-button">
+               <a href="#knowledge">CONOCIMIENTOS</a>
+            </div>
 
             <div class="nav-button">
                 <a href="#proyects">PROYECTOS</a>
@@ -36,30 +42,30 @@
 
     <!-- Presentación inicio -->
 
-    <section class="landing-box">        
-        <article class="landing-text">
-            <p class="landing-greeting">¡Hola! Soy</p>
-            <h1 class="landing-title">Milena Gimenez</h1>
-            <h2 class="landing-description">Diseñadora gráfica publicitaria y desarrolladora web Frontend</h2>
+    <section id="hello">        
+        <article class="hello-text">
+            <p class="hello-greeting">¡Hola! Soy</p>
+            <h1 class="hello-title">Milena Gimenez</h1>
+            <h2 class="hello-description">Diseñadora gráfica publicitaria y desarrolladora web Frontend</h2>
 
-            <button class="landing-button"><a href="#proyects">LO QUE HAGO</a></button>
+            <button class="hello-button"><a href="#proyects">LO QUE HAGO</a></button>
         </article>
         
-        <figure class="landing-image-box">
-            <img class="landing-image" src="./images/landing.svg" alt="Imagen de landing">
+        <figure class="hello-image-box">
+            <img class="hello-image" src="./images/hello.svg" alt="Imagen de presentación">
         </figure>
         
     </section>
 
     <!--Mis conocimientos-->
 
-    <section class="about-box">
-        <article class="about-text">
-            <h2 class="about-title">Mis conocimientos</h2>
-            <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque neque molestias consequuntur vel ab quas architecto.</p>
+    <section id="knowledge">
+        <article class="know-text">
+            <h2 class="know-title">Mis conocimientos</h2>
+            <p class="know-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque neque molestias consequuntur vel ab quas architecto.</p>
         </article>
 
-        <article class="about-box-knowledge">            
+        <article class="know-box">            
             <div class="knowledge-box">
                 <figure>
                     <img src="./images/icons/html5.svg" alt="Icono de HTML 5" class="knowledge-icon">
@@ -205,10 +211,10 @@
 
     <footer id="footer-box">            
         <div class="footer-nav">
-            <div class="footer-nav-button">HOLA</div>
-            <div class="footer-nav-button">CONOCIMIENTOS</div>
-            <div class="footer-nav-button">PROYECTOS</div>
-            <div class="footer-nav-button">CONTACTO</div>
+            <div class="footer-nav-button"><a href="#hello">HOLA</a></div>
+            <div class="footer-nav-button"><a href="#knowledge">CONOCIMIENTOS</a></div>
+            <div class="footer-nav-button"><a href="#proyects">PROYECTOS</a></div>
+            <div class="footer-nav-button"><a href="#contact">CONTACT</a></div>          
         </div>
         
         <ul class="footer-contact-social">

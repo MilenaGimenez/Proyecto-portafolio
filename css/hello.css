@@ -1,0 +1,66 @@
+#hello{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.hello-text{       
+    margin-left: 3%;
+    margin-top: 6%;       
+    width: 38%;
+}
+
+.hello-greeting{    
+    font-size: 2em;
+    font-weight: 900;
+    color: rgb(78, 78, 78);    
+}
+
+.hello-title{
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    color: #5C15CC;
+}
+
+.hello-description{    
+    font-size: 1.3em;
+    color: rgb(78, 78, 78);    
+}
+
+.hello-button{    
+    font-size: 1.5em;
+    font-weight: 400;
+    color: white;    
+    background: linear-gradient(145deg, rgba(104,203,255,1) 0%, rgba(30,145,196,1) 100%);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin-top: 50px;  
+    outline:none;  
+}
+
+.hello-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.hello-button:hover{    
+    font-size: 1.5em;
+    font-weight: 400;
+    color: white;    
+    background: linear-gradient(145deg, rgba(104,203,255,1) 0%, rgba(30,145,196,1) 100%);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 21px 4px rgba(104,203,255,0.6); 
+    cursor: pointer; 
+    outline:none;
+}
+
+.hello-image-box{    
+    width: 38%;
+    margin-right: 3%;      
+    margin-top: 6%; 
+}

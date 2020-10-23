@@ -6,7 +6,7 @@
     color: rgb(97, 97, 97);
 }
 
-.about-box{
+#knowledge{
     background-color: rgba(104,203,255,0.1);
     height: 130vh;
     display: flex;
@@ -14,18 +14,18 @@
     text-align: center;   
 }
 
-.about-title{
+.know-title{
     font-size: 2.8em;
     margin-top: 10%;    
 }
 
-.about-description{
+.know-description{
     font-size: 1em;    
     width: 25%;   
     margin: 2% auto;
 }
 
-.about-box-knowledge{    
+.know-box{    
     width: 60%;   
     margin: auto;
     display: flex;
