@@ -21,7 +21,7 @@
 }
 
 .quote-text{
-    font-size: 1.2em;
+    font-size: 1.6em;
     font-style: italic;    
     width: 60%;
     margin: 3% auto;
@@ -29,7 +29,7 @@
 }
 
 .quote-author{
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
     color: white;       
 }

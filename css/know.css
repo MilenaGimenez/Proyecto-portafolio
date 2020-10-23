@@ -20,8 +20,8 @@
 }
 
 .know-description{
-    font-size: 1em;    
-    width: 25%;   
+    font-size: 1.1em;    
+    width: 30%;   
     margin: 2% auto;
 }
 
@@ -38,6 +38,17 @@
     margin: 1.5% 1.5%;
     border-radius: 5%;  
     border: 5px solid #5C15CC;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 1%;
+}
+
+.knowledge-box:hover{
+    background-color: white;
+    width: 30%;  
+    margin: 1.5% 1.5%;
+    border-radius: 5%;  
+    border: 5px solid #68CBFF;
     display: flex;
     flex-direction: column;
     padding: 5% 1%;
