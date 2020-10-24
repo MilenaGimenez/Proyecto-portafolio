@@ -3,7 +3,8 @@
     height: 180vh;
     display: flex;
     flex-direction: column;    
-    text-align: center;      
+    text-align: center;    
+    color: #4E4E4E; 
 }
 
 .proyects-title{

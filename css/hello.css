@@ -28,7 +28,12 @@
     color: rgb(78, 78, 78);    
 }
 
-.hello-button{    
+.hello-button{
+    text-decoration: none;
+    color: white;
+}
+
+.hello-button-link{    
     font-size: 1.5em;
     font-weight: 400;
     color: white;    
@@ -41,12 +46,7 @@
     transition: .3s ease all;
 }
 
-.hello-button a{
-    text-decoration: none;
-    color: white;
-}
-
-.hello-button:hover{    
+.hello-button-link:hover{    
     font-size: 1.5em;
     font-weight: 400;
     color: white;    

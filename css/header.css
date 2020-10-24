@@ -20,10 +20,13 @@
     line-height: 2.5;    
 }
 
-.nav-button{       
+.nav-button{          
+    margin: 0 20px;     
+}
+
+.nav-button-link{    
     font-size: 1em;    
-    padding: 0px 20px; 
-    margin: 0 20px; 
+    padding: 10px 20px; 
     border-radius: 100px;    
     background: linear-gradient(145deg, rgba(104,203,255,1) 0%, rgba(128,37,254,1) 100%);
     color: #fff;      
@@ -35,10 +38,9 @@
     color: white;
 }
 
-.nav-button:hover{       
+.nav-button-link:hover{       
     font-size: 1em;    
-    padding: 0px 20px; 
-    margin: 0 20px; 
+    padding: 10px 20px;     
     border-radius: 100px;    
     background: linear-gradient(145deg, rgba(104,203,255,1) 0%, rgba(128,37,254,1) 100%);
     color: #fff;
