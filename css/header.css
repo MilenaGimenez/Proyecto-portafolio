@@ -27,6 +27,7 @@
     border-radius: 100px;    
     background: linear-gradient(145deg, rgba(104,203,255,1) 0%, rgba(128,37,254,1) 100%);
     color: #fff;      
+    transition: .3s ease all;
 }
 
 .nav-button a{

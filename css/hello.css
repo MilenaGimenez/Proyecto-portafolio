@@ -38,6 +38,7 @@
     padding: 10px 30px;
     margin-top: 50px;  
     outline:none;  
+    transition: .3s ease all;
 }
 
 .hello-button a{
