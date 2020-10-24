@@ -206,8 +206,29 @@
                 </div>
                 <div class="form-writeme">
                     <h2 class="contact-title">Escribime</h2>
-                
-                    <!--insert formulario-->
+                    <div class="contact-form">
+                        <form>
+                            <div class="contact-form-name">
+                                <div class="form-name">
+                                    <label for="user-name" class="form-label">Nombre *</label>
+                                    <input type="text" name="userName" id="user-name" placeholder="p. ej.: Milena" required>
+                                </div>
+                                <div class="form-lastname">
+                                    <label for="user-lastname" class="form-label">Apellido *</label>
+                                    <input type="text" name="userLastname" id="user-lastname" placeholder="p. ej.: Gimenez" required>
+                                </div>                                
+                            </div>
+                            <div class="contact-form-email">
+                                <label for="user-email" class="form-label">Email *</label>
+                                <input type="email" name="email" id="user-email" placeholder="p. ej.: milenanicolegimenez@gmail.com" required>
+                            </div>
+                            <div class="contact-form-message">
+                                <textarea name="userMessage" id="user-message" cols="45" rows="9" placeholder="Escribí tu mensaje" required></textarea>
+                            </div>
+                            <button class="contact-form-button" type="submit">Enviar</button>
+                        </form>
+
+                    </div>                
                 </div>
             </article>
         </section>
