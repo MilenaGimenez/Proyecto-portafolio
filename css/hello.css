@@ -65,3 +65,56 @@
     margin-right: 3%;      
     margin-top: 6%; 
 }
+
+@media(max-width: 360px){   
+
+    #hello{
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+
+    .hello-greeting{
+        display: flex;
+        justify-content: center;        
+        width: 90vw;
+    }
+
+    .hello-title{
+        font-size: 2.6em;        
+        display: flex;
+        justify-content: center;        
+        width: 94vw;       
+    }
+
+    .hello-description{
+        font-size: 1em;        
+        width: 94vw;
+        text-align: center;
+        margin-top: 20%;       
+    }
+
+    .hello-button{
+        display: flex;
+        justify-content: center;        
+        width: 94vw;        
+    }
+
+    .hello-button-link{        
+        width: 70vw;
+        font-size: 1em;             
+    }
+
+    .hello-button-link:hover{
+        width: 70vw;
+        font-size: 1em;    
+    }
+
+    .hello-image-box{        
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        margin-right: 43vw;      
+        margin-top: 160%;       
+    }
+}
