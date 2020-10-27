@@ -46,3 +46,13 @@
     width: 50%;
     margin: auto;
 }
+
+@media(max-width: 1100px){
+    #proyects{
+        height: 190vh;        
+    }
+
+    .proyects-description{
+        width: 45vw;
+    }
+}

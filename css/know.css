@@ -57,3 +57,14 @@
     margin-top: 8%;
     font-weight: 600;
 }
+
+@media(max-width: 1100px){
+    #knowledge{
+        height: 130vh;
+        margin-top: 30%;
+    }
+
+    .know-description{
+        width: 45vw;
+    }
+}

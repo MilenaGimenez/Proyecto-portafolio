@@ -26,7 +26,7 @@
 
 .form-write-me{       
     width: 50%;
-    padding: 6%; 
+    padding: 5%; 
 }
 
 .contact-title{
@@ -136,4 +136,28 @@ input:hover, textarea:hover{
 }
 input:valid, textarea:valid{
     box-shadow: 0 0 8px 0 rgb(65, 177, 45);
+}
+
+@media(max-width: 1100px){
+    .contact-description{
+        font-size: 0.88em;
+    }
+
+    /* .social-media{
+        margin-top: 5%;    
+    } */
+    .social-media-icon{
+        font-size: 1em;        
+    }
+    
+    .social-media-link{
+        font-size: 0.93em;
+    }
+    
+    /* .social-media:hover .social-media-icon{
+        background-color: #1E91C4;
+    }
+    .social-media:hover .social-media-link{
+        color: #1E91C4;
+    } */
 }
