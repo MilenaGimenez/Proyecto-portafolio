@@ -22,8 +22,7 @@
     width: 70%;   
     margin: auto;
     display: flex;
-    flex-wrap: wrap; 
-    /* background-color: tomato; */
+    flex-wrap: wrap;    
 }
 
 .proyects-box{
@@ -52,7 +51,19 @@
         height: 190vh;        
     }
 
+    .proyects-boxes{         
+        margin: 30px auto;    
+    }
+
     .proyects-description{
         width: 45vw;
     }
+}
+
+@media(max-width: 600px){
+    .proyects-box{        
+        width: 47%;          
+    }
+
+   
 }

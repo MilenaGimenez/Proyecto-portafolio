@@ -62,9 +62,32 @@
     #knowledge{
         height: 130vh;
         margin-top: 30%;
-    }
+    }   
 
     .know-description{
         width: 45vw;
     }
+
+    .know-box{    
+        width: 60%;   
+        margin: 30px auto;           
+    }
+
+    .knowledge-box{        
+        width: 30%;         
+    }
+
+    .knowledge-title{
+        font-size: 1.1rem;      
+    }
+}
+
+@media(max-width: 600px){             
+    .knowledge-box{        
+        width: 47%;         
+    }
+
+    .knowledge-box:hover{        
+        width: 47%;         
+    }    
 }

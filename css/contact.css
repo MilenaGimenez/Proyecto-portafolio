@@ -74,7 +74,7 @@
 
 .contact-form{
     width: 100%;
-    display: flex;    
+    display: flex;     
 }
 
 .contact-form-name{    
@@ -142,10 +142,7 @@ input:valid, textarea:valid{
     .contact-description{
         font-size: 0.88em;
     }
-
-    /* .social-media{
-        margin-top: 5%;    
-    } */
+    
     .social-media-icon{
         font-size: 1em;        
     }
@@ -153,11 +150,8 @@ input:valid, textarea:valid{
     .social-media-link{
         font-size: 0.93em;
     }
-    
-    /* .social-media:hover .social-media-icon{
-        background-color: #1E91C4;
-    }
-    .social-media:hover .social-media-link{
-        color: #1E91C4;
-    } */
+
+    #user-name, #user-lastname, #user-email, #user-message{
+       width: 100%;        
+    }       
 }
