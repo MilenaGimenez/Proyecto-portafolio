@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.nav-burger-button{
+    display: none;
+}
+
 .header{
     background-color: white;    
     box-shadow: 0px 20px 25px 0px rgba(204,204,204,0.5);
@@ -49,7 +53,78 @@
 }
 
 @media(max-width: 1100px){
-    .header{
+    .nav-button{
         display: none;       
+    }    
+
+    .header{
+        box-shadow: none;
     }
+
+    .navigation-bar{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    /*menu hamburguesa*/ 
+
+    .nav-burger-button{
+        display: flex;
+        flex-direction: column;        
+    }
+
+    ul{
+        display: none;
+    }
+    
+    input:checked  ~ ul{
+        display:block;
+        background: none;
+    }
+    
+    input {
+        display: none;
+    }
+    
+    label {
+        box-sizing: border-box;
+        display: inline-block;
+        color: white;        
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+    }
+        
+    label:hover{
+        background-color: #68CBFF;
+    }
+       
+    input:checked ~ label {
+        background: #1E91C4; 
+    }
+    
+    ul{
+        margin-top:0;
+        padding: 0;
+        width: 180px;           
+    }
+        
+    li {
+        display: block;
+        background: rgb(177, 237, 248);
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+        border-bottom: 1px solid rgb(73, 173, 240);    
+    }    
+   
+    li:hover {
+        filter: brightness(110%);
+    }
+    
 }
+
