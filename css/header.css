@@ -5,9 +5,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 .nav-burger-button{
     display: none;
 }
+
 
 .header{
     background-color: white;    
@@ -29,7 +31,7 @@
 }
 
 .nav-button-link{    
-    font-size: 1em;    
+    font-size: 1rem;    
     padding: 10px 20px; 
     border-radius: 100px;    
     background: linear-gradient(145deg, rgba(104,203,255,1) 0%, rgba(128,37,254,1) 100%);
@@ -43,7 +45,7 @@
 }
 
 .nav-button-link:hover{       
-    font-size: 1em;    
+    font-size: 1rem;    
     padding: 10px 20px;     
     border-radius: 100px;    
     background: linear-gradient(145deg, rgba(104,203,255,1) 0%, rgba(128,37,254,1) 100%);
@@ -53,22 +55,26 @@
 }
 
 @media(max-width: 1100px){
-    .nav-button{
+    /* .nav-button{
         display: none;       
-    }    
+    }     */
 
     .header{
-        box-shadow: none;
+        display: none;
     }
 
-    .navigation-bar{
+    /* .header{
+        box-shadow: none;       
+    } */
+
+    /* .navigation-bar{
         display: flex;
         justify-content: flex-start;
-    }
+    } */
     
     /*menu hamburguesa*/ 
 
-    .nav-burger-button{
+    /* .nav-burger-button{
         display: flex;
         flex-direction: column;        
     }
@@ -125,6 +131,6 @@
     li:hover {
         filter: brightness(110%);
     }
-    
+     */
 }
 
