@@ -48,7 +48,7 @@
 
 @media(max-width: 1100px){
     #proyects{
-        height: 190vh;        
+        height: auto;        
     }
 
     .proyects-boxes{         
@@ -61,9 +61,12 @@
 }
 
 @media(max-width: 600px){
-    .proyects-box{        
-        width: 47%;          
+
+    .proyects-boxes{        
+        width: 75%;
     }
 
-   
+    .proyects-box{        
+        width: 47%;          
+    }   
 }

@@ -60,8 +60,8 @@
 
 @media(max-width: 1100px){
     #knowledge{
-        height: 130vh;
-        margin-top: 30%;
+        height: auto;
+        margin-top: 8%;
     }   
 
     .know-description{
@@ -82,7 +82,11 @@
     }
 }
 
-@media(max-width: 600px){             
+@media(max-width: 600px){        
+    .know-box{        
+        width: 75%;
+    }
+
     .knowledge-box{        
         width: 47%;         
     }

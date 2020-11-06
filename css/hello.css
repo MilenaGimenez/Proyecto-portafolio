@@ -2,7 +2,7 @@
     height: 100vh;
     display: flex;
     justify-content: space-around;
-    align-items: center;  
+    align-items: center;     
 }
 
 .hello-text{       
@@ -75,7 +75,7 @@
         justify-content: center;
         align-items: center;   
         flex-direction: column;   
-        margin-top: 15%;     
+        margin-top: 200px;     
     }
 
     .hello-text{
@@ -135,12 +135,9 @@
         justify-content: center;  
         align-items: center;      
         width: 100%;
-        margin: 60px 0;
-        /* background-color: orangered; */
+        margin: 60px 0;       
     }
 }
-
-
 
 @media(max-width: 600px){
     .hello-title{        
