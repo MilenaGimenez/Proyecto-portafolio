@@ -83,6 +83,7 @@
         display: flex;
         flex-direction: column;
         width: 100vw;
+        align-items: center;
     }
 
     .hello-greeting{
@@ -146,19 +147,13 @@
     }
 
     .hello-description{    
-        font-size: 0.95rem;         
+        font-size: 0.95rem;           
+        width: 90%;             
     }
 }
 
 @media (max-width: 500px){
     .hello-image{        
         width: 90%;
-    }
-}
-
-
-@media(max-width: 420px){
-    .hello-description{    
-        font-size: 0.85rem;         
     }
 }
