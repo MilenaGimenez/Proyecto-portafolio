@@ -14,7 +14,7 @@
 }
 
 .quote-text{
-    font-size: 1.6em;
+    font-size: 1.6rem;
     font-style: italic;    
     width: 60%;
     margin: 3% auto;
@@ -22,7 +22,37 @@
 }
 
 .quote-author{
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
     color: white;       
+}
+
+@media(max-width: 800px){
+    .quote-text{
+        font-size: 1.4rem;
+    }
+
+    .quote-author{
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width: 600px){
+    .quote-text{
+        font-size: 1.2rem;
+    }
+
+    .quote-author{
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width: 400px){
+    .quote-text{
+        font-size: 1rem;
+    }
+
+    .quote-author{
+        font-size: 1.4rem;
+    }
 }

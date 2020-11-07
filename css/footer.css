@@ -1,4 +1,4 @@
-#footer-box{
+.footer-box{
     background-color: #1E91C4;   
 }
 
@@ -48,4 +48,19 @@
     background: none;
     color: #5C15CC;
     font-size: 1.1rem;
+}
+
+@media(max-width: 514px){
+
+    .footer-nav-button{
+        display: none;
+    }
+
+    .footer-contact-social{
+        margin-top: 10%;
+    }
+
+    .footer-sign{
+        font-size: 0.95rem;
+    }
 }
