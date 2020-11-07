@@ -155,3 +155,10 @@
         width: 90%;
     }
 }
+
+
+@media(max-width: 420px){
+    .hello-description{    
+        font-size: 0.85rem;         
+    }
+}
