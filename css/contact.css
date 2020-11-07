@@ -237,3 +237,13 @@ input:valid, textarea:valid{
         margin-right: 25px;
     }
 }
+
+@media(max-width: 400px){
+    .contact-title{
+        font-size: 2rem;
+    }
+
+    .contact-form-button{
+       font-size: 0.65rem; 
+    }
+}
