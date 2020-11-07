@@ -145,4 +145,7 @@
         font-size: 3.2em;
     }
 
+    .hello-description{    
+        font-size: 0.95rem;       
+    }
 }
