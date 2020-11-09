@@ -27,6 +27,8 @@
     color: white;       
 }
 
+/*Inicio media queries */
+
 @media(max-width: 800px){
     .quote-text{
         font-size: 1.4rem;
@@ -56,3 +58,5 @@
         font-size: 1.4rem;
     }
 }
+
+/*Fin media queries */

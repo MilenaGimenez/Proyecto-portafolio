@@ -50,6 +50,8 @@
     font-size: 1.1rem;
 }
 
+/*Inicio media queries */
+
 @media(max-width: 514px){
 
     .footer-nav-button{
@@ -64,3 +66,5 @@
         font-size: 0.95rem;
     }
 }
+
+/*Fin media queries */

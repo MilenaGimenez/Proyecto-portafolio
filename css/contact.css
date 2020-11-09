@@ -99,7 +99,7 @@
 
 #user-name, #user-lastname, #user-email, #user-message{
     padding: 10px;
-    background-color: #e2f4fd;      
+    background-color: #e9f7ff;      
     border-radius: 18px;
     outline: none;
     resize: none;
@@ -112,7 +112,6 @@
     margin-right: 10px;
 }
 
-/*Boton enviar*/
 .contact-form-button{
     margin-top: 5%;
     width: 25%;
@@ -131,12 +130,18 @@
     cursor: pointer;
 }
 
-input:hover, textarea:hover{
-    box-shadow: 0 0 8px 0 red;
-}
 input:valid, textarea:valid{
-    box-shadow: 0 0 8px 0 rgb(65, 177, 45);
-}
+    box-shadow: 0 0 6px 0 rgb(65, 177, 45);
+    transition: .3s ease all;
+} 
+
+input:invalid, textarea:invalid{
+    box-shadow: 0 0 6px 0  rgba(128,37,254);
+} 
+
+/*Fin formulario*/
+
+/*Inicio media queries */
 
 @media(max-width: 1100px){
 
@@ -245,7 +250,7 @@ input:valid, textarea:valid{
 
     .contact-form-button{
        font-size: 0.65rem; 
-    }
-
-    
+    }    
 }
+
+/*Fin media queries */
