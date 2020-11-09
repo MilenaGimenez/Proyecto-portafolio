@@ -14,29 +14,29 @@
 .hello-greeting{    
     font-size: 2rem;
     font-weight: 900;
-    color: rgb(78, 78, 78);    
+    color: var(--gray);    
 }
 
 .hello-title{
     font-family: 'Pacifico', cursive;
     font-size: 4rem;
-    color: #5C15CC;
+    color: var(--purple);
 }
 
 .hello-description{    
     font-size: 1.3rem;
-    color: rgb(78, 78, 78);    
+    color: var(--gray);   
 }
 
 .hello-button{
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 .hello-button-link{    
     font-size: 1.5rem;
     font-weight: 400;
-    color: white;    
+    color: var(--white);   
     background: linear-gradient(145deg, rgba(104,203,255,1) 0%, rgba(30,145,196,1) 100%);
     border: none;
     border-radius: 50px;
@@ -49,7 +49,7 @@
 .hello-button-link:hover{    
     font-size: 1.5rem;
     font-weight: 400;
-    color: white;    
+    color: var(--white);   
     background: linear-gradient(145deg, rgba(104,203,255,1) 0%, rgba(30,145,196,1) 100%);
     border: none;
     border-radius: 50px;

@@ -1,19 +1,19 @@
 #contact{
-    background-color: white;
+    background-color: var(--white);
     height: 180vh;
     display: flex;
     flex-direction: column;    
     text-align: center;  
     height: 110vh; 
-    color: rgb(97, 97, 97)
+    color: var(--gray);
 }
 
 .form-box{
-    background-color: white;
+    background-color: var(--white);
     width: 70%;
     margin: 0 auto;
     border-radius: 20px;
-    border: 5px solid #5C15CC;
+    border: 5px solid var(--purple);
     margin-top: 10%; 
     display: flex;
     text-align: left;
@@ -32,7 +32,7 @@
 .contact-title{
     font-size: 2.5rem;
     font-weight: bold;
-    color: rgb(73, 73, 73);
+    color: var(--gray);
 }
 
 .contact-description{
@@ -50,7 +50,7 @@
 }
 .social-media-icon{
     font-size: 1.1rem;
-    color:#68CBFF;
+    color: var(--lightblue);
     margin-right: 5px;
     border-radius: 100px;
     padding: 10px 10px;
@@ -60,14 +60,14 @@
 .social-media-link{
     text-decoration: none;
     transition: .2s ease all;
-    color: rgb(97, 97, 97)
+    color: var(--gray);
 }
 
 .social-media:hover .social-media-icon{
-    background-color: #1E91C4;
+    background-color: var(--blue);
 }
 .social-media:hover .social-media-link{
-    color: #1E91C4;
+    color: var(--blue);
 }
 
 /*Formulario*/
@@ -99,7 +99,7 @@
 
 #user-name, #user-lastname, #user-email, #user-message{
     padding: 10px;
-    background-color: #e9f7ff;      
+    background-color: var(--skyblue);      
     border-radius: 18px;
     outline: none;
     resize: none;
@@ -116,7 +116,7 @@
     margin-top: 5%;
     width: 25%;
     font-size: 1rem;
-    background-color: #5C15CC;
+    background-color: var(--purple);
     color: white;
     border: none;
     padding: 10px;    
@@ -125,18 +125,18 @@
 }
 
 .contact-form-button:hover{
-    box-shadow: 0px 0px 21px 4px rgba(128,37,254,0.6);    
+    box-shadow: 0px 0px 15px 4px var(--lightpurple);    
     outline: none;
     cursor: pointer;
 }
 
 input:valid, textarea:valid{
-    box-shadow: 0 0 6px 0 rgb(65, 177, 45);
+    box-shadow: 0 0 6px 0 var(--green);
     transition: .3s ease all;
 } 
 
 input:invalid, textarea:invalid{
-    box-shadow: 0 0 6px 0  rgba(128,37,254);
+    box-shadow: 0 0 6px 0 var(--lightpurple);
 } 
 
 /*Fin formulario*/

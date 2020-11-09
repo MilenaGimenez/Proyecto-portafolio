@@ -1,10 +1,10 @@
 #proyects{
-    background-color: rgba(104,203,255,0.1);
+    background-color:var(--backgroundblue);
     height: 180vh;
     display: flex;
     flex-direction: column;    
     text-align: center;    
-    color: #4E4E4E; 
+    color: var(--gray); 
 }
 
 .proyects-title{
@@ -26,11 +26,11 @@
 }
 
 .proyects-box{
-    background-color: white;
+    background-color: var(--white);
     width: 30%;  
     margin: 1.5% 1.5%;
     border-radius: 5%;  
-    border: 5px solid #5C15CC;
+    border: 5px solid var(--purple);
     display: flex;
     flex-direction: column;
     padding: 5% 1%;

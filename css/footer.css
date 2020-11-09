@@ -1,5 +1,5 @@
 .footer-box{
-    background-color: #1E91C4;   
+    background-color: var(--blue);   
 }
 
 .footer-nav{
@@ -11,17 +11,17 @@
     font-size: 1em;    
     padding: 0px 20px; 
     margin-top: 5%;   
-    color: #fff; 
+    color: var(--white); 
     cursor: pointer;
 }
 
 .footer-nav-button a{
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 .footer-sign{
-    color: white;
+    color: var(--white);
     font-size: 1.1em;
     text-align: center;
     padding-bottom: 5%;
@@ -38,15 +38,15 @@
 }
 .footer-social-media-icon{
     font-size: 1.1rem;
-    color:white;    
+    color: var(--white);    
     border-radius: 100px;
     padding: 10px 10px;
-    background-color: #5C15CC;
+    background-color: var(--purple);
 }
 
 .footer-social-media-icon:hover{
     background: none;
-    color: #5C15CC;
+    color: var(--purple);
     font-size: 1.1rem;
 }
 
