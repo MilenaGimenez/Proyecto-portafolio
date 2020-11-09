@@ -83,6 +83,10 @@
         width: 47%;          
     }   
 
+    .proyects-box:hover{        
+        width: 47%;          
+    }   
+
     .proyects-description{
         font-size: 1rem;    
         width: 60%;
