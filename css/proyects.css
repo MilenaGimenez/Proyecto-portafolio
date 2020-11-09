@@ -1,6 +1,5 @@
 #proyects{
-    background-color:var(--backgroundblue);
-    height: 180vh;
+    background-color:var(--backgroundblue);   
     display: flex;
     flex-direction: column;    
     text-align: center;    
@@ -23,6 +22,7 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;    
+    margin-bottom: 50px;
 }
 
 .proyects-box{
@@ -31,6 +31,17 @@
     margin: 1.5% 1.5%;
     border-radius: 5%;  
     border: 5px solid var(--purple);
+    display: flex;
+    flex-direction: column;
+    padding: 5% 1%;
+}
+
+.proyects-box:hover{
+    background-color: var(--white);
+    width: 30%;  
+    margin: 1.5% 1.5%;
+    border-radius: 5%;  
+    border: 5px solid var(--lightblue);
     display: flex;
     flex-direction: column;
     padding: 5% 1%;

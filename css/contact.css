@@ -1,10 +1,8 @@
 #contact{
-    background-color: var(--white);
-    height: 180vh;
+    background-color: var(--white);    
     display: flex;
     flex-direction: column;    
-    text-align: center;  
-    height: 110vh; 
+    text-align: center;      
     color: var(--gray);
 }
 
@@ -17,6 +15,7 @@
     margin-top: 10%; 
     display: flex;
     text-align: left;
+    margin-bottom: 50px;
 }
 
 .form-contact{    
@@ -147,11 +146,6 @@ input:invalid, textarea:invalid{
 
     .form-box{
         width: 75%;
-    }
-
-    #contact{
-        height: auto;
-        margin-bottom: 50px;
     }
     .contact-description, .social-media-link, .form-label{
         font-size: 0.85rem;

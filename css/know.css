@@ -1,6 +1,5 @@
 #knowledge{
-    background-color: var(--backgroundblue);
-    height: 130vh;
+    background-color: var(--backgroundblue);    
     display: flex;
     flex-direction: column;    
     text-align: center;   
@@ -22,7 +21,8 @@
     width: 60%;   
     margin: auto;
     display: flex;
-    flex-wrap: wrap;     
+    flex-wrap: wrap;   
+    margin-bottom: 50px;  
 }
 
 .knowledge-box{
