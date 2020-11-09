@@ -96,7 +96,7 @@
     font-weight: bold;
 }
 
-#user-name, #user-lastname, #user-email, #user-message{
+.user-name, .user-lastname, .user-email, .user-message{
     padding: 10px;
     background-color: var(--skyblue);      
     border-radius: 18px;
@@ -107,7 +107,7 @@
     margin-bottom: 2%;
 }
 
-#user-name{
+.user-name{
     margin-right: 10px;
 }
 
@@ -155,7 +155,7 @@ input:invalid, textarea:invalid{
         font-size: 1rem;        
     }    
 
-    #user-name, #user-lastname, #user-email, #user-message{
+    .user-name, .user-lastname, .user-email, .user-message{
        width: 100%;        
     }     
 
@@ -163,7 +163,7 @@ input:invalid, textarea:invalid{
         margin-right: -15px;
     }
 
-    #user-name, #user-lastname{     
+    .user-name, .user-lastname{     
         width: 90%;        
     }    
 
@@ -240,7 +240,7 @@ input:invalid, textarea:invalid{
           
     }
 
-    #user-name, #user-lastname{
+    .user-name, .user-lastname{
         margin: 0 auto;
         width: 100%;        
     }

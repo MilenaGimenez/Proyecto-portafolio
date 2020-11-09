@@ -17,7 +17,7 @@
     margin: 2% auto;
 }
 
-.know-box{    
+.know-boxes{    
     width: 60%;   
     margin: auto;
     display: flex;
@@ -25,7 +25,7 @@
     margin-bottom: 50px;  
 }
 
-.knowledge-box{
+.know-box{
     background-color: var(--white);
     width: 30%;  
     margin: 1.5% 1.5%;
@@ -36,7 +36,7 @@
     padding: 5% 1%;
 }
 
-.knowledge-box:hover{
+.know-box:hover{
     background-color: var(--white);
     width: 30%;  
     margin: 1.5% 1.5%;
@@ -47,12 +47,12 @@
     padding: 5% 1%;
 }
 
-.knowledge-icon{
+.know-box-icon{
     width: 40%;
     margin: auto;
 }
 
-.knowledge-title{
+.know-box-title{
     font-size: 1.3rem;
     margin-top: 8%;
     font-weight: 600;
@@ -70,30 +70,30 @@
         width: 45vw;
     }
 
-    .know-box{    
+    .know-boxes{    
         width: 60%;   
         margin: 30px auto;           
     }
 
-    .knowledge-box{        
+    .know-box{        
         width: 30%;         
     }
 
-    .knowledge-title{
+    .know-box-title{
         font-size: 1.1rem;      
     }
 }
 
 @media(max-width: 600px){        
-    .know-box{        
+    .know-boxes{        
         width: 75%;
     }
 
-    .knowledge-box{        
+    .know-box{        
         width: 47%;         
     }
 
-    .knowledge-box:hover{        
+    .know-box:hover{        
         width: 47%;         
     }  
     
@@ -109,7 +109,7 @@
         font-size: 2.5rem;          
     }    
 
-    .knowledge-title{
+    .know-box-title{
         font-size: 0.85rem;
     }
 }
