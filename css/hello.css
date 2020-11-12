@@ -8,7 +8,9 @@
 .hello-text{       
     margin-left: 3%;
     margin-top: 6%;       
+    /* margin-bottom: 13%; */
     width: 38%;
+    /* background-color: red; */
 }
 
 .hello-greeting{    
@@ -158,7 +160,7 @@
         width: 90%;
     }
 }
-
+/* 
 @media screen and (orientation: landscape){
     #hello{
         height: 130vh;          
@@ -167,6 +169,6 @@
     .hello-image-box{            
         margin-bottom: 20%;          
     }
-}
+} */
 
 /*Fin media queries */
