@@ -112,6 +112,20 @@
     .know-box-title{
         font-size: 0.85rem;
     }
+
+    .know-boxes{         
+        display: flex;
+        flex-direction: column;         
+        align-items: center;    
+    }
+
+    .know-box{       
+        width: 100%;
+    }
+
+    .know-box:hover{       
+        width: 100%;
+    }
 }
 
 /*Fin media queries */

@@ -105,6 +105,20 @@
     .proyects-box-title{
         font-size: 0.85rem;          
     }
+
+    .proyects-boxes{         
+        display: flex;
+        flex-direction: column;         
+        align-items: center;    
+    }
+
+    .proyects-box{       
+        width: 100%;
+    }
+
+    .proyects-box:hover{       
+        width: 100%;
+    }
 }
 
 /*Fin media queries */
