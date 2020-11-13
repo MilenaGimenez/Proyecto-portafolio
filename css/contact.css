@@ -178,6 +178,9 @@ input:invalid, textarea:invalid{
 
 
 @media(max-width: 850px){   
+    .form-box{
+        width: 90%;
+    }
     .social-media-link, .social-media-icon{        
         font-size: 0.75rem;
     }    
@@ -205,6 +208,7 @@ input:invalid, textarea:invalid{
         flex-direction: column;        
         align-items: center;
         text-align: center;
+        
     }
 
     .form-contact{       
@@ -233,6 +237,10 @@ input:invalid, textarea:invalid{
         justify-content: center;        
     }
 
+    .contact-description{
+        text-align: left;
+    }
+
     .form-name, .form-lastname{    
         display: flex;
         align-items: center;        
@@ -249,6 +257,10 @@ input:invalid, textarea:invalid{
         margin: 0;   
         margin: 10px 0;     
     }
+
+    .contact-social{        
+        text-align: left;
+    }
 }
 
 @media(max-width: 400px){
@@ -259,6 +271,10 @@ input:invalid, textarea:invalid{
     .contact-form-button{
        font-size: 0.65rem; 
     }    
+
+    .social-media-link, .social-media-icon{
+        font-size: 0.8rem;
+    }
 }
 
 /*Fin media queries */
