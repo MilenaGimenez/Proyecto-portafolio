@@ -112,12 +112,14 @@
     }
 
     .menu-sections-link{
-        background: none;       
+        background: none;    
+        box-shadow: none;   
     }
 
     .menu-sections-link:hover{
         background: none;  
-        color: var(--blue);             
+        color: var(--blue);  
+        box-shadow: none;             
     }
 }
 
