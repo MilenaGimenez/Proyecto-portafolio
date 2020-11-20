@@ -107,6 +107,12 @@
     margin-bottom: 2%;
 }
 
+.user-name:focus, .user-lastname:focus, .user-email:focus, .user-message:focus{
+    box-shadow: 0 0 6px 0 var(--lightblue);
+    transition: .3s ease all;
+}
+
+
 .user-name{
     margin-right: 10px;
 }
